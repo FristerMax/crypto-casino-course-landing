@@ -123,8 +123,8 @@ export default function Home() {
 
           <div style={{ display:"flex", flexDirection:"column", gap:12, marginBottom:32 }}>
             {[
-              { coin:"ETH", addr:"0x7392E13DDDD106d0c0EFef92DebdA7ce0deebcE1", amount:"0.035 ETH" },
-              { coin:"USDT (TRC-20)", addr:"——", amount:"99 USDT" },
+              { coin:"ETH", addr:"0xF9290D4dcFA06BD751d28CBF1A304EC82264166A", amount:"0.035 ETH" },
+              { coin:"USDT (ERC-20)", addr:"0xF9290D4dcFA06BD751d28CBF1A304EC82264166A", amount:"99 USDT" },
               { coin:"BTC", addr:"——", amount:"0.001 BTC" },
             ].map(p => (
               <div key={p.coin} style={{ padding:"14px 20px", borderRadius:12, background:"rgba(255,255,255,0.04)", border:"1px solid rgba(255,255,255,0.1)", textAlign:"left" }}>
