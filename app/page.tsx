@@ -138,9 +138,7 @@ export default function Home() {
           </div>
 
           <p style={{ fontSize:13, color:"rgba(255,255,255,0.35)", lineHeight:1.7 }}>
-            После оплаты отправьте TX hash на{" "}
-            <a href="mailto:max.shel@truelabel.io" style={{ color:"#00f5ff" }}>max.shel@truelabel.io</a>
-            {" "}— получите доступ в течение 24 часов.
+            После оплаты напишите нам в Telegram с TX hash — получите доступ в течение 24 часов.
           </p>
         </div>
       </section>
