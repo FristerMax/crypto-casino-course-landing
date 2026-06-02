@@ -40,7 +40,7 @@ const t = {
     hero: <>Создай <span style={{background:"linear-gradient(135deg,#00f5ff,#aa00ff)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>крипто казино</span> с нуля</>,
     sub: "Полный курс по созданию provably fair казино на блокчейне Ethereum. Смарт-контракт, 4 игры, красивый UI — от нуля до задеплоенного продукта.",
     fullAccess: "Полный доступ",
-    price_sub: "или 0.035 ETH · 99 USDT",
+    price_sub: "или 0.013 ETH · 39 USDT",
     buyBtn: "⚡ Купить курс",
     payText: "Оплата ETH · USDT · BTC",
     built: "Что вы построите",
@@ -62,7 +62,7 @@ const t = {
     hero: <>Build a <span style={{background:"linear-gradient(135deg,#00f5ff,#aa00ff)",WebkitBackgroundClip:"text",WebkitTextFillColor:"transparent"}}>Crypto Casino</span> from Scratch</>,
     sub: "Complete course on building a provably fair on-chain casino on Ethereum. Smart contract, 4 games, beautiful UI — from zero to deployed product.",
     fullAccess: "Full Access",
-    price_sub: "or 0.035 ETH · 99 USDT",
+    price_sub: "or 0.013 ETH · 39 USDT",
     buyBtn: "⚡ Buy Course",
     payText: "Pay with ETH · USDT · BTC",
     built: "What You Will Build",
@@ -126,7 +126,7 @@ export default function Home() {
         <div style={{display:"inline-block",padding:"32px 48px",borderRadius:20,
           background:"rgba(255,255,255,0.04)",border:"1px solid rgba(0,245,255,0.2)",marginBottom:32}} className="glow">
           <div style={{fontSize:14,color:"rgba(255,255,255,0.4)",marginBottom:8,textTransform:"uppercase",letterSpacing:"0.1em"}}>{T.fullAccess}</div>
-          <div style={{fontSize:56,fontWeight:900,color:"#00f5ff",lineHeight:1}}>$99</div>
+          <div style={{fontSize:56,fontWeight:900,color:"#00f5ff",lineHeight:1}}>$39</div>
           <div style={{fontSize:13,color:"rgba(255,255,255,0.35)",marginTop:8}}>{T.price_sub}</div>
         </div>
 
@@ -195,13 +195,13 @@ export default function Home() {
         <p style={{color:"rgba(255,255,255,0.5)",marginBottom:40,lineHeight:1.7}}>{T.buy_sub}</p>
 
         <div style={{padding:"40px",borderRadius:20,background:"rgba(255,255,255,0.04)",border:"1px solid rgba(0,245,255,0.2)",marginBottom:24}}>
-          <div style={{fontSize:48,fontWeight:900,color:"#00f5ff",marginBottom:8}}>$99</div>
+          <div style={{fontSize:48,fontWeight:900,color:"#00f5ff",marginBottom:8}}>$39</div>
           <div style={{color:"rgba(255,255,255,0.4)",marginBottom:32}}>{T.buy_desc}</div>
 
           <div style={{display:"flex",flexDirection:"column",gap:12,marginBottom:32}}>
             {[
-              {coin:"ETH / USDT (ERC-20)", addr:ETH_ADDR, amount:"0.035 ETH / 99 USDT"},
-              {coin:"BTC",                 addr:BTC_ADDR,  amount:"0.001 BTC"},
+              {coin:"ETH / USDT (ERC-20)", addr:ETH_ADDR, amount:"0.013 ETH / 39 USDT"},
+              {coin:"BTC",                 addr:BTC_ADDR,  amount:"0.0004 BTC"},
             ].map(p => (
               <div key={p.coin} style={{padding:"14px 20px",borderRadius:12,background:"rgba(255,255,255,0.04)",
                 border:"1px solid rgba(255,255,255,0.1)",textAlign:"left"}}>
