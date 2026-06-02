@@ -125,8 +125,14 @@ export default function Home() {
 
         <div style={{display:"inline-block",padding:"32px 48px",borderRadius:20,
           background:"rgba(255,255,255,0.04)",border:"1px solid rgba(0,245,255,0.2)",marginBottom:32}} className="glow">
-          <div style={{fontSize:14,color:"rgba(255,255,255,0.4)",marginBottom:8,textTransform:"uppercase",letterSpacing:"0.1em"}}>{T.fullAccess}</div>
-          <div style={{fontSize:56,fontWeight:900,color:"#00f5ff",lineHeight:1}}>$39</div>
+          <div style={{display:"flex",alignItems:"center",gap:10,marginBottom:8,justifyContent:"center"}}>
+            <div style={{fontSize:14,color:"rgba(255,255,255,0.4)",textTransform:"uppercase",letterSpacing:"0.1em"}}>{T.fullAccess}</div>
+            <span style={{padding:"2px 10px",borderRadius:20,background:"linear-gradient(135deg,#ff4444,#cc0000)",color:"#fff",fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:"0.1em"}}>SALE</span>
+          </div>
+          <div style={{display:"flex",alignItems:"baseline",gap:12,justifyContent:"center"}}>
+            <div style={{fontSize:28,fontWeight:700,color:"rgba(255,255,255,0.3)",textDecoration:"line-through"}}>$99</div>
+            <div style={{fontSize:64,fontWeight:900,color:"#00f5ff",lineHeight:1}}>$39</div>
+          </div>
           <div style={{fontSize:13,color:"rgba(255,255,255,0.35)",marginTop:8}}>{T.price_sub}</div>
         </div>
 
@@ -195,7 +201,13 @@ export default function Home() {
         <p style={{color:"rgba(255,255,255,0.5)",marginBottom:40,lineHeight:1.7}}>{T.buy_sub}</p>
 
         <div style={{padding:"40px",borderRadius:20,background:"rgba(255,255,255,0.04)",border:"1px solid rgba(0,245,255,0.2)",marginBottom:24}}>
-          <div style={{fontSize:48,fontWeight:900,color:"#00f5ff",marginBottom:8}}>$39</div>
+          <div style={{display:"flex",alignItems:"center",gap:10,justifyContent:"center",marginBottom:4}}>
+            <span style={{padding:"2px 10px",borderRadius:20,background:"linear-gradient(135deg,#ff4444,#cc0000)",color:"#fff",fontSize:11,fontWeight:800,textTransform:"uppercase",letterSpacing:"0.1em"}}>SALE -60%</span>
+          </div>
+          <div style={{display:"flex",alignItems:"baseline",gap:10,justifyContent:"center",marginBottom:8}}>
+            <span style={{fontSize:24,fontWeight:700,color:"rgba(255,255,255,0.3)",textDecoration:"line-through"}}>$99</span>
+            <span style={{fontSize:52,fontWeight:900,color:"#00f5ff",lineHeight:1}}>$39</span>
+          </div>
           <div style={{color:"rgba(255,255,255,0.4)",marginBottom:32}}>{T.buy_desc}</div>
 
           <div style={{display:"flex",flexDirection:"column",gap:12,marginBottom:32}}>
